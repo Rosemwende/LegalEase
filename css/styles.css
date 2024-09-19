@@ -1,0 +1,257 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+main {
+    flex: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/* Marquee Styles */
+.marquee-container {
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+}
+
+.marquee-container h1 {
+    display: inline;
+}
+
+/* Navigation Styles */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul.left-nav {
+    margin-right: auto;
+}
+
+nav ul.right-nav {
+    margin-left: auto;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover, .dropdown:hover > a {
+    background: #444;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #333;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+.dropdown-content a:hover {
+    background: #444;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Section Styles */
+#features {
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+#features .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.features-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 300px;
+    padding: 200px;
+}
+
+#cta {
+    padding: 50px 0;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+#cta .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#cta h1, #cta h2, #cta h4 {
+    margin: 20px 0;
+}
+
+#cta button {
+    padding: 10px 20px;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cta button:hover {
+    background: #555;
+}
+.admin-panel {
+    display: flex;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar-heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-item {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+.sidebar-item.active,
+.sidebar-item:hover {
+    background-color: #6c757d;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.content-header {
+    margin-bottom: 20px;
+}
+
+.report-generation {
+    margin: 20px;
+    padding: 20px;
+    color: purple;
+    background: blue;
+    border-radius: 8px;
+    max-width: 150%; /* Adjusts the maximum width */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.report-generation h2 {
+    margin-bottom: 20px;
+    font-size: 30px; /* Adjust font size */
+    text-align: center; /* Center the heading */
+}
+
+#reportMessage {
+    margin-top: 50px;
+    font-size: 16px; /* Adjust font size */
+}
+
+/* Alert Styles */
+.alert {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    position: relative;
+}
+
+.alert .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: inherit;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* Footer Styles */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+
