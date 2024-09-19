@@ -32,7 +32,7 @@ Licensing:
     This project is licensed under MIT License. See the License file in the repository for more details.
 
 
-https://github.com/Rosemwende/LegalEase/blob/main/Screenshot%20(36).png?raw=true
+
 
 
 
