@@ -31,8 +31,7 @@ Related projects:
 Licensing:
     This project is licensed under MIT License. See the License file in the repository for more details.
 
-![image_alt](https://github.com/Rosemwende/LegalEase/blob/45f58babf8cdffffb598d04aee480e0b1a880119/Screenshot%20(36).png)
-
+![image_alt]()
 
 
 
