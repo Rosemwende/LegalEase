@@ -1,6 +1,6 @@
 ﻿Project Name: LEGALEASE
 
-LEGALEASE is a online platform that help clients easly discover and connect with lawyers. Users can browse detailed lawyer profiles, review qualifications and expertise, and book appointments directly through the platform. This simplifies the process of finding the right lawyer, saving time and ensuring clients make informed decisions based on their needs.
+LEGALEASE is an online platform that help clients easily discover and connect with lawyers. Users can browse detailed lawyer profiles, review qualifications and expertise, and book appointments directly through the platform. This simplifies the process of finding the right lawyer, saving time and ensuring clients make informed decisions based on their needs.
 http://127.0.0.1:8080/eds-modules/phpmyadmin470x240708133228/LegalEase/user_dashboard.php
 http://www.linkedin.com/in/rose-mwende-78a73b266
 
